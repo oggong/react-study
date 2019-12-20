@@ -946,11 +946,11 @@ divToggle.onClick = function () {
   store.dispatch(toggleSwitch());
 };
 
-divToggle.onClick = function () {
+btnIncrease.onClick = function () {
   store.dispatch(increase(1));
 };
 
-divToggle.onClick = function () {
+btnDecrease.onClick = function () {
   store.dispatch(decrease());
 };
 },{"redux":"node_modules/redux/es/redux.js"}],"C:/Users/user/AppData/Local/Yarn/Data/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {

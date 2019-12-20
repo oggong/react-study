@@ -64,9 +64,9 @@ store.subcribe(render);
 divToggle.onClick = () => {
     store.dispatch(toggleSwitch());
 };
-divToggle.onClick = () => {
+btnIncrease.onClick = () => {
     store.dispatch(increase(1));
 };
-divToggle.onClick = () => {
+btnDecrease.onClick = () => {
     store.dispatch(decrease());
 };
