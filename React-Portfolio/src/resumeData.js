@@ -1,63 +1,63 @@
 let resumeData = {
     "imagebaseurl":"https://oggong.github.io/",
     "name": "Minseok Oh",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
+    "role": "Frontend Developer and Android Developer",
+    "linkedinId":"omsbrd@naver.com",
     "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "roleDescription": "",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/민석-오-31908314b",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/minseokoh-dev",
           "className":"fa fa-github"
         },
         {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "name":"facebook",
+          "url":"https://web.facebook.com/profile.php?id=100047399688737",
+          "className":"fa fa-facebook"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
+    "aboutme":"JavaScript를 활용한 Full Stack 개발자를 지향하고 있으며, React , Android 개발자로의 취직을 희망하고 있습니다.",
     "address":"South Korea",
-    "website":"https://https://github.com/minseokoh-dev",
+    "website":"https://github.com/minseokoh-dev",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Gyeonggi University Of Science And Technology",
+        "specialization":"컴퓨터 모바일 융합과",
+        "MonthOfPassing":"Fab",
+        "YearOfPassing":"2019",
+        "Achievements":""
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Encore Playdata",
+        "specialization":"자바 및 파이썬 기반 빅데이터 시각화 전문가 과정",
+        "MonthOfPassing":"Sep",
+        "YearOfPassing":"2019",
+        "Achievements":""
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"DeltaBot",
+        "specialization":"개발팀 인턴",
+        "MonthOfLeaving":"Fab",
+        "YearOfLeaving":"2019",
+        "Achievements":""
       },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      }
+      // {
+      //   "CompanyName":"Some Company",
+      //   "specialization":"Some specialization",
+      //   "MonthOfLeaving":"Jan",
+      //   "YearOfLeaving":"2018",
+      //   "Achievements":"Some Achievements"
+      // }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"",
     "skills":[
       {
         "skillname":"HTML5"
@@ -67,40 +67,52 @@ let resumeData = {
       },
       {
         "skillname":"Reactjs"
-      }
+      },
+      {
+        "skillname":"ANDROID"
+      },
+      {
+        "skillname":"JAVA"
+      },
+      {
+        "skillname":"NODEJS"
+      },
+      
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"Project-keepfit",
+        "description":"스프링 기반 하이브리드 웹앱 프로젝트",
+        "imgurl":"images/portfolio/keepfit-project.jpg",
+        "portfoliourl":"https://github.com/minseokoh-dev/project-keepfit"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"Project-balloon",
+        "description":"자바스크립트 기반 Full Stack 웹 프로젝트",
+        "imgurl":"images/portfolio/balloon-project.jpg",
+        "portfoliourl":"https://github.com/minseokoh-dev/project-balloon"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"blog-project",
+        "description":"리액트 블로그 프로젝트",  
+        "imgurl":"images/portfolio/blog-project.jpg"
       },
       {
         "name":"project4",
         "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "imgurl":"images/portfolio/fourth-project.jpg"
       }
     ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      },
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
-      }
-    ]
+    // "testimonials":[
+    //   {
+    //     "description":"This is a sample testimonial",
+    //     "name":"Some technical guy"
+    //   },
+    //   {
+    //     "description":"This is a sample testimonial",
+    //     "name":"Some technical guy"
+    //   }
+    // ]
   }
   
   export default resumeData
