@@ -23,7 +23,7 @@ let resumeData = {
         }
       ],
     "aboutme":"JavaScript를 활용한 Full Stack 개발자를 지향하고 있으며, React , Android 개발자로의 취직을 희망하고 있습니다.",
-    "address":"South Korea",
+    "address":"omsbrd@naver.com",
     "website":"https://github.com/minseokoh-dev",
     "education":[
       {

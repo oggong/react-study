@@ -38,6 +38,7 @@ header {
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
+   margin-bottom: 1px;
 }
 
 /* vertically center banner section */
@@ -211,7 +212,7 @@ ul#nav li.current a { color: #F06000; }
    height: 120px;
    border-radius: 100%;
 }
-#about .contact-details { width: 55.66667%; }
+#about .contact-details { width:100%; }
 #about .download {
    width: 58.33333%;
    padding-top: 6px;
@@ -491,7 +492,12 @@ ul#nav li.current a { color: #F06000; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.portfolio-item .item-wrap a {
+/* .portfolio-item .item-wrap a {
+   display: block;
+   cursor: pointer;
+} */
+
+.portfolio-item .item-wrap img {
    display: block;
    cursor: pointer;
 }
@@ -514,6 +520,8 @@ ul#nav li.current a { color: #F06000; }
 	transition: opacity 0.3s ease-in-out;
 
    background: url(../images/overlay-bg.png) repeat;
+
+   cursor: pointer;
 }
 .portfolio-item .item-wrap .link-icon {
    display: block;
