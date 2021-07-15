@@ -112,9 +112,10 @@ let resumeData = {
       imgurl: "images/portfolio/blog-project.jpg",
     },
     {
-      name: "portfolio-vuejs",
-      description: "vue.js로 만든 포트폴리오 사이트",
-      imgurl: "images/portfolio/fourth-project.jpg",
+      name: "vuejs-portfolio-project",
+      description: "vue.js로 만든 포트폴리오 탬플릿",
+      imgurl: "images/portfolio/portfolio-project.png",
+      portfoliourl: "https://github.com/minseokoh-dev/",
     },
   ],
   // "testimonials":[
