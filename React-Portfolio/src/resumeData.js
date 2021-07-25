@@ -112,8 +112,8 @@ let resumeData = {
       imgurl: "images/portfolio/blog-project.jpg",
     },
     {
-      name: "project4",
-      description: "mobileapp",
+      name: "portfolio-vuejs",
+      description: "vue.js로 만든 포트폴리오 사이트",
       imgurl: "images/portfolio/fourth-project.jpg",
     },
   ],
